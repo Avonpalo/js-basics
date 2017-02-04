@@ -4,7 +4,7 @@
 /*i.e.*/
 
 var pet = "sebastian the pug";
-console.log(pet);
+console.log("pet");
 
 /**
 * #1
@@ -15,6 +15,26 @@ console.log(pet);
 *
 * Each value should be a String. 
 **/
+var firstName = "Ann";
+console.log(firstName);
+var lastName = "Yamauchi";
+console.log(lastName);
+var birthPlace = "Honolulu, Hawaii";
+console.log(birthPlace);
+var favoriteFood = "green chicken curry";
+console.log(favoriteFood);
+var bestMovie = "Pitch Perfect";
+console.log(bestMovie);
+var favLoveSong  = "Love Song";
+console.log(favLoveSong);
+var cuteAnimal = "Chinchilla";
+console.log(cuteAnimal);
+var favColor = "lavender";
+console.log(favColor);
+var favSneaker = "New Balance";
+console.log(favSneaker);
+var coffeeShop = "Insomnia";
+console.log(coffeeShop);
 
 
 /**
@@ -25,6 +45,26 @@ console.log(pet);
 *
 * Each value should be a Number
 **/
+var favoriteNumber = 5;
+console.log(favoriteNumber);
+var currentYear = 2017;
+console.log(currentYear);
+var thatOnePrinceSong = 1999;
+console.log(thatOnePrinceSong);
+var tokyoOlympics = 2020;
+console.log(tokyoOlympics);
+var mariahCareyAge = 46;
+console.log(mariahCareyAge);
+var currentTemp = 70;
+console.log(currentTemp);
+var studentsInClass = 12;
+console.log(studentsInClass);
+var numOfJapanPrefectures = 47;
+console.log(numOfJapanPrefectures);
+var currentIphoneModel = 7;
+console.log(currentIphoneModel);
+var shoeSize = 6.5;
+console.log(shoeSize);
 
 
 /**
@@ -35,6 +75,26 @@ console.log(pet);
 *
 * Each value should be a Boolean
 **/
+var likesMcDonalds = false;
+console.log(likesMcDonalds);
+var watchedMrRobot = false;
+console.log(watchedMrRobot);
+var ranMarathon = false;
+console.log(ranMarathon);
+var wrestledABear = false;
+console.log(wrestledABear);
+var lovesDonuts = true;
+console.log(lovesDonuts);
+var readHarryPotter = true;
+console.log(readHarryPotter);
+var sleptInClass = true;
+console.log(sleptInClass);
+var drinksCoffee = true;
+console.log(drinksCoffee);
+var shopsAtWholeFoods = true;
+console.log(shopsAtWholeFoods);
+var ownsRedShoes = false;
+console.log(ownsRedShoes);
 
 
 /**
@@ -45,13 +105,22 @@ console.log(pet);
 *
 * Each value should be Null 
 **/
+var completedPrepClass = null;
+console.log (completedPrepClass);
+var traveledToMars = null;
+console.log (traveledToMars);
+var scoredTDinNFL = null;
+console.log (scoredTDinNFL);
 
 
 /*
 #5. 
 * What is the difference between null and undefined? Type your answer in two or three commented-out sentences.
 */
-
+/*
+In JavaScript, undefined means that a variable has been declared but not been assigned a variable. Null,
+although it means "nothing", the data-type implies an object.
+*/
 
 /**
 * #6
@@ -64,7 +133,18 @@ console.log(pet);
 * Declare a variable named `duets` and assign it an array containing 3 nested arrays, each containing the names of 2 singers or bands.
 * Declare a variable named `mixPlate` and assign it an array containing different data types of your choosing.
 **/
-
+var plateLunch = ["teri-beef burger", "chicken katsu", "green chili", "crunchy taco's with jicama", "kim chee fried rice"];
+console.log (plateLunch);
+var fruitBasket = ["banana's", "Korean pears", "strawberries", "green grapes", "lychee"];
+console.log (fruitBasket);
+var westCoast = ["Oregon", "State of Washington", "California", "Alaska", "Hawaii"];
+console.log (westCoast);
+var lotteryResult = [3000000, 15000000, 40000000, 13000000, 1000000];
+console.log (lotteryResult);
+var duets = ["Journey", "Foreigner", ["Bette Midler", "Taylor Swift"], ["Beyonce", "Elvis Presley"], ];
+console.log (duets);
+var mixPlate = ["teri-beef and teri-chicken", 12345, "fried chicken with mashed potatoes", null, 10<2 ];
+console.log (mixPlate);
 
 
 /*7
@@ -76,7 +156,10 @@ What is the length of this array? Please print the length (a number) to the cons
 What is the index position of carrot cake? Please print this item to the console.
 What is the index position of lemon bars? Please print this item to the console.
 */
-
+var partyList = ["carrot cake", "rocky road ice cream", "mochiko chicken", "orange tang", "lemon bar"];
+console.log (partyList.length);
+console.log (partyList[0]);
+console.log (partyList[4]);
 
 
 /*
@@ -92,7 +175,17 @@ What is the index position of lemon bars? Please print this item to the console.
 *Declare a new variable, `mariahStory`. Assign it the value of concatenating the variables `mariahCareyAge`, `favSneaker`, `favLoveSong` and `coffeeShop` to create the following sentence:
 At the age of xx, Mariah Carey, wearing her fancy xx, sang xx at the xx.
 */
+var firstName = "Ann ";
+var lastName = "Yamauchi";
+var fullName = firstName.concat(lastName);
+var birthPlace = "Honolulu, Hawaii";
+var whereFrom = fullName.concat(birthPlace);
+console.log (fullName, "is from ", birthPlace);
+/**
+var mariahStory = mariahCareyAge.concat(favSneaker, favLoveSong, coffeeShop);
+console.log ("At the age of ", mariahCareyAge, "Mariah Carey, ", "wearing her fancy ", favSneaker, "sang ", favLoveSong, "at the ", coffeeShop ".");
 
+*/
 
 
 /**
@@ -106,7 +199,15 @@ At the age of xx, Mariah Carey, wearing her fancy xx, sang xx at the xx.
 * Mulitply the two variables and store it to a new variable named `product`.
 * Divide the two variables and store it to a new variable named `quotient`.
 * What is the remainder when you divide num1 by num2? Print your answer to the console.
-
+*/
+var num1 = 5;
+var num2 = 4;
+var sum = num1 + num2;
+var difference = num1 - num2;
+var product = num1 * num2;
+var quotient = num1 / num2;
+var remainder = num1 % num2;
+console.log (remainder);
 
 
 /**
