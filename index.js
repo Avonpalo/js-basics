@@ -182,7 +182,8 @@ var birthPlace = "Honolulu, Hawaii";
 var whereFrom = fullName.concat(birthPlace);
 console.log (fullName, "is from ", birthPlace);
 
-/**
+/** Kaleo's Example:
+
 var fullName = firstName.concat(lastName);
 console.log(fullName);
 
@@ -320,12 +321,11 @@ console.log(ModMyBox);
 **/
 function bakePie(ingredient){
 	return "Today's special is: " + ingredient + " pie.";
-var pieResult = x;
 
 }
 
-
-console.log(bakePie("cherry"));
+var pieResult = bakePie("cherry");
+console.log(pieResult);
 
 /**
 * Declare a Function named `jump` which has a single parameter, `height`.
@@ -341,3 +341,19 @@ console.log(bakePie("cherry"));
 * if invoked in this way -> cook("Tomatoes", "Cheese", "Pizza");
 **/
 
+function jump(height){
+	return "You jumped " + height + " feet high!";
+
+}
+
+var jumpResult = jump(7);
+console.log(jumpResult);
+
+
+function cook(ingredient1, ingredient2, recipeName){
+	return ingredient1 + " and " + ingredient2 + " makes " + recipeName + "!";
+
+}
+
+var  cookMeUp =  cook("Spaghetti noodles", "spaghetti sauce", "spaghetti");
+console.log(cookMeUp);
