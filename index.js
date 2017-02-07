@@ -243,8 +243,33 @@ console.log (remainder);
 * 3>2 6>3 (use and)
 * 7>2 8<5 (use and)
 * Declare variables and print the results to the console. What are the differences between the three and why?
+**/
 
+var s1 = "Tacocat";
+var s2 = "tacocat";
+var isStrictlyEqual = s1 === s2;
+console.log(isStrictlyEqual);
 
+var isLooselyEqual = s1 == s2;
+console.log(isLooselyEqual);
+/* isStriclyEqual and isLooselyEqual both return a boolean value of false because they are
+*  both(=== and ==) comparing equality. Tacocat and tacocat are not of equal type nor or they
+*  of equal value.
+**/
+
+var n1 = "5";
+var n2 = 5;
+var sameNum = n1 === n2 ;
+console.log(sameNum);
+
+var sameNumba = n1 == n2;
+console.log(sameNumba);
+/* sameNum returns a boolean value of false and sameNumba returns a boolean value of true
+*  because with the strict equality(===), although they are the same value, they are not of
+*  equal type(n1 is a string & n2 is a number). With the equality(==), 5 is equal to 5
+*  whether or not it's a string or a number. The comparision with equality to the computer
+*  says it's the same.
+**/
 
 /**
 * #11
