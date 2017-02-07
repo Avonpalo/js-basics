@@ -283,6 +283,19 @@ console.log(sameNumba);
 * Write 5 different assignment statements and `console.log()` the value of the variable after each
 * assignment statement to show the current value. REMEMBER: an assignment is DIFFERENT from a declaration.
 *
+**/
+
+var myBox = 5;
+var IncrMyBox = myBox += 2;
+console.log(IncrMyBox);
+var DecrMyBox = myBox -= 5;
+console.log(DecrMyBox);
+var MultMyBox = myBox *= 2;
+console.log(MultMyBox);
+var DivMyBox = myBox /= 1;
+console.log(DivMyBox);
+var ModMyBox = myBox %= 4;
+console.log(ModMyBox);
 
 /**
 * Final Boss 
