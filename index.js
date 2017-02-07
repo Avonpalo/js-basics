@@ -181,10 +181,23 @@ var fullName = firstName.concat(lastName);
 var birthPlace = "Honolulu, Hawaii";
 var whereFrom = fullName.concat(birthPlace);
 console.log (fullName, "is from ", birthPlace);
-/**
-var mariahStory = mariahCareyAge.concat(favSneaker, favLoveSong, coffeeShop);
-console.log ("At the age of ", mariahCareyAge, "Mariah Carey, ", "wearing her fancy ", favSneaker, "sang ", favLoveSong, "at the ", coffeeShop ".");
 
+var mariahCareyAge = " At the age of 46, Mariah Carey";
+var favSneaker = " wearing her fancy New Balance shoes";
+var favLoveSong = " sang Love Song";
+var coffeeShop = " at the Insomnia Coffee Shop.";
+
+var mariahStory = mariahCareyAge.concat(favSneaker,favLoveSong,coffeeShop);
+console.log(mariahStory);
+
+/**
+var mariahCareyAge = 46;
+var favSneaker = "New Balance";
+var favLoveSong = "Love Song";
+var coffeeShop = "Insomnia";
+var mariahStory = mariahCareyAge.concat(favSneaker,favLoveSong,coffeeShop);
+
+console.log ("At the age of ", mariahCareyAge, " Mariah Carey, wearing her fancy ", favSneaker, " sang ", favLoveSong, " at the ", coffeeShop, ".");
 */
 
 
@@ -195,13 +208,13 @@ console.log ("At the age of ", mariahCareyAge, "Mariah Carey, ", "wearing her fa
 * Next perform the following arithmetic operations:
 
 * Add the two variables and store it to new variable named `sum`.
-* Subtract the two variables and store it to a new variable named `difference`.
+* Subtract the two variables and store it to a new variable na `meddifference`.
 * Mulitply the two variables and store it to a new variable named `product`.
 * Divide the two variables and store it to a new variable named `quotient`.
 * What is the remainder when you divide num1 by num2? Print your answer to the console.
 */
 var num1 = 5;
-var num2 = 4;
+var num2 = 11;
 var sum = num1 + num2;
 var difference = num1 - num2;
 var product = num1 * num2;
