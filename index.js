@@ -182,6 +182,16 @@ var birthPlace = "Honolulu, Hawaii";
 var whereFrom = fullName.concat(birthPlace);
 console.log (fullName, "is from ", birthPlace);
 
+/**
+var fullName = firstName.concat(lastName);
+console.log(fullName);
+
+var text = " is from ";
+
+var whereFrom = fullName.concat(text,birthPlace);
+console.log(whereFrom);
+**/
+
 var mariahCareyAge = " At the age of 46, Mariah Carey";
 var favSneaker = " wearing her fancy New Balance shoes";
 var favLoveSong = " sang Love Song";
@@ -307,8 +317,17 @@ console.log(ModMyBox);
 * For example, if the value is `blueberry`, it should return "Today's special blueberry pie."
 * Declare a variable 'pieResult' and assign it to the function call.
 * Console.log the variable to see the result.
+**/
+function bakePie(ingredient){
+	return "Today's special is: " + ingredient + " pie.";
+var pieResult = x;
+
+}
 
 
+console.log(bakePie("cherry"));
+
+/**
 * Declare a Function named `jump` which has a single parameter, `height`.
 * This function should return a string, "You jumped height feet high!" Where height will be the value that you pass into the function.
 * For example, if the value is 9, it should return "You jumped 9 feet high!"
